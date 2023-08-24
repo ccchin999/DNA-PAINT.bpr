@@ -6,7 +6,7 @@ Created on Thu May 23 09:37:36 2019
 @author: lhjin
 """
 
-train_data_path0='/home/chin/Experiments/DNA-PAINT/dataset'
+train_data_path0='/home/user/Experiments/DNA-PAINT/dataset'
 model_load="/home/user/DNA-PAINT/3000R.pkl"
 model_save="/home/user/personal/model/path"
 epoch_num=2000
