@@ -121,6 +121,7 @@ move=function(image,dw=0,dh=0){
   image[(1:w)-dw,(1:h)-dh]
 }
 
+dir.create(opat,showWarnings = FALSE, recursive = TRUE)
 setwd(opat)
 gb=160/128
 for(i in 1:dsize){
