@@ -44,9 +44,9 @@ mtSimulate=function(dense=5){
   # d$x=d$x/max(d$x)
   # d$y=d$y/max(d$y)
   # plot(d$x[-1<=d$x & d$x <=1 & -1<=d$y & d$y<=1],d$y[-1<=d$x & d$x <=1 & -1<=d$y & d$y<=1],pch='.',asp=1)
-  plot(d$x,d$y,pch='.',asp=1)
-  lines(sqrt(2)*cos(0:100/100*2*pi),sqrt(2)*sin(0:100/100*2*pi),col='red')
-lines(c(1,1,-1,-1,1),c(1,-1,-1,1,1),col='blue')
+  # plot(d$x,d$y,pch='.',asp=1)
+  # lines(sqrt(2)*cos(0:100/100*2*pi),sqrt(2)*sin(0:100/100*2*pi),col='red')
+  # lines(c(1,1,-1,-1,1),c(1,-1,-1,1,1),col='blue')
   data.frame(x=d$x[-1<=d$x & d$x <=1 & -1<=d$y & d$y<=1],y=d$y[-1<=d$x & d$x <=1 & -1<=d$y & d$y<=1])
 }
 
