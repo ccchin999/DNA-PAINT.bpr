@@ -18,6 +18,7 @@ Codes and pre-trained models for DNA-PAINT reconstruction accelerated by U-Net.
   - hdf5r
   - configr
 - Fiji
+  - ImageJ plugin raw-yaml exporter (Download https://github.com/jungmannlab/imagej-raw-yaml-export/blob/master/jar/Raw_Yaml_Export.jar and put .jar file into `Fiji.app/plugins` directory)
 
 ## Usage
 
